@@ -2,11 +2,12 @@ import speech_recognition as sr
 import sys
 
 #read duration from the arguments
-duration = int(sys.argv[1])
+duration = int("2")
 
 # initialize the recognizer
 r = sr.Recognizer()
 print("Please talk")
+
 with sr.Microphone() as source:
     # read the audio data from the default microphone
     audio_data = r.record(source, duration=duration)
