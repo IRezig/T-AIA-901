@@ -8,7 +8,7 @@ https://github.com/fluent-ffmpeg/node-fluent-ffmpeg/wiki/Installing-ffmpeg-on-Ma
 
 ```sh
 $ brew install ffmpeg
-$ node app
+
 ```
 
 Install Python 3.8.2 or Python 3.8.3
